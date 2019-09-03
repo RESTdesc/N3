@@ -1,0 +1,9 @@
+@prefix ppl: <http://example.org/people#>.
+
+{
+    ?personA ppl:dates ?personB.
+}
+=>
+{
+    ?personB ppl:dates ?personA.
+}.
